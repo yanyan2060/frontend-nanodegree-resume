@@ -1,10 +1,6 @@
 /*
 This is empty on purpose! Your code to build the resume will go here.
  */
-
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
  
 
  
@@ -58,7 +54,7 @@ bio.display = function() {
 
 
 };
-
+bio.display();
 
 var projects = {
 	"project":[
@@ -105,7 +101,7 @@ projects.display = function(){
 
 }
 
-
+projects.display();
 
 var education = {
 	"schools": [
@@ -183,7 +179,7 @@ education.display = function () {
 	}
 
 };
-
+education.display();
 var work = {
 	"jobs": {
 		"employer": "<a href='http://www.zteusa.com/'>ZTE",
@@ -195,9 +191,6 @@ var work = {
 	}
 	
 };
-bio.display();
-projects.display();
-education.display();
 //work part
 $("#workExperience").append(HTMLworkStart);
 var formattedEmployer = HTMLworkEmployer.replace("%data%",work.jobs.employer);

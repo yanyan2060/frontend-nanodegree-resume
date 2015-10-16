@@ -99,11 +99,11 @@ a {
   line-height: 28px;
 }
 
+
 #skills-h3 {
-  color: #f5ae23;
+  color: #F5AE23;
   display: none;
 }
-
 .orange {
   background-color: #f5ae23;
 }
@@ -139,6 +139,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 10px;
+
 }
 
 .center-content {
@@ -197,11 +198,12 @@ span {
 #map {
   display: block;
   height: 100%;
-  margin: 0 5%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #mapDiv {
-  height: 400px;
+  height: 500px;
   width: 100%;
   padding-bottom: 5%;
 }
