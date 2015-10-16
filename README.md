@@ -1,1 +1,1 @@
-This is my resume : [http://yanyan2060.github.io/frontend-nanodegree-resume/] http://yanyan2060.github.io/frontend-nanodegree-resume/
+This is my resume : http://yanyan2060.github.io/frontend-nanodegree-resume/
