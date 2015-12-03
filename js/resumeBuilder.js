@@ -58,6 +58,27 @@ bio.display();
 
 var projects = {
 	"project":[
+		{
+			"title":"Web Blog(Python, Google App Engine, Webapp2, HTML, CSS)",
+			"dates":"10.2015-11.2015",
+			"description": " Built a web blog with sign up/in using hashing to securely read and transmit user passwords.Generated data in JSON formats that other computers can access through an API.Added a static google map, and marked the ip address.Added memcache to blog and display the time of accessing the database."
+			
+		},
+		{
+			"title":"<a href = 'https://github.com/yanyan2060/web-search-engine'>Web-Searching Engine(Python)</a>",
+			"dates":"09.2015-10.2015",
+			"description":"Built a web-search engine including web crawler, build on index and ranking page.Implemented a ranked page crawler algorithm for higher accuracy."
+		},
+		{
+			"title":"<a href='https://github.com/yanyan2060/Udacity-Intro-to-Hadoop-and-MapReduce'>Analyze Big Data Set(Python,Hadoop,MapReduce)</a>",
+			"dates":"09.2015-10.5015",
+			"description":"Analyzed Udacity student discussion forum to get the hours of most posts by student.Wrote a mapreduce program would output the length of the post and the average answer length for each post.Wrote a mapreduce program would output the Top 10 tags ordered by the number of questions they appear in."
+		},
+		{
+			"title":"<a href = 'https://github.com/yanyan2060/Kernighan-Lin-algorithm'>VLSI Circuits Partitioning(C++)</a>",
+			"dates": "05.2014-06.2014",
+			"description":"Implemented and experimented with Kernighan-Lin partitioning algorithm for gate-level designs.Found the partition areas which can offer the minimal cutset size."
+		},
 	{
 		"title":"<a href='https://github.com/yanyan2060/Decision-Tree-Induction-algorithm'>Data Classification(C++)</a>",
 		"dates":"03.2014-04.2014",
@@ -66,13 +87,18 @@ var projects = {
 		"Verify the decision tree with test data and obtain the accuracy of this algorithm."
 	},
 	{
-		"title": "Compute data cubes with Star-Cubing algorithms (C++)",
+		"title":"<a href = 'https://github.com/yanyan2060/Data-Mining---FP-Growth-algorithm'>Mining Frequent Item Sets</a>",
+		"dates":"02.2014-03.2014",
+		"description":"Implemented the frequent pattern (FP) growth algorithm for mining frequent item sets.Constructed frequent item sets through FP-tree and condition FP-tree for the items in frequent item sets."
+	},
+	{
+		"title": "<a href = 'https://github.com/yanyan2060/Star-Cubing-Algorithm'>Compute data cubes with Star-Cubing algorithms (C++)</a>",
 		"dates":"02.2014-03.2014",
 		"description":"Implemented Star-Cubing algorithms to compute data cubes. " +
 		"Utilized star-tree structure, extends the simultaneous aggregation methods." +
 		"Obtained iceberg cubes quickly and use less memory compared to the previous ways."
-	}
-	
+	},
+		
 	]
 };
 
